@@ -45,6 +45,46 @@ public class Arrays {
 			
 		}
 		
+		System.out.println();
+		
+		// Now let's do a sample of two dimensional array's, think of them as a 2 dimensional table.
+		// Let us showcase a table of animals per species
+		
+		String[][] animalKingdom = new String[3][6];
+		
+		animalKingdom[0][0] = "  X  ";
+		animalKingdom[0][1] = "Cat";
+		animalKingdom[0][2] = "Dog";
+		animalKingdom[0][3] = "Bear";
+		animalKingdom[0][4] = "Fish";
+		animalKingdom[0][5] = "Bird";
+		
+		animalKingdom[1][0] = " Type";
+		animalKingdom[1][1] = "Lion";
+		animalKingdom[1][2] = "Shepard";
+		animalKingdom[1][3] = "Grizzly";
+		animalKingdom[1][4] = "Tuna";
+		animalKingdom[1][5] = "Canary";
+		
+		animalKingdom[2][0] = "Speed";
+		animalKingdom[2][1] = "30mph ";
+		animalKingdom[2][2] = "25mph";
+		animalKingdom[2][3] = "40mph";
+		animalKingdom[2][4] = "20mph";
+		animalKingdom[2][5] = "80mph";
+		
+		
+		for(int row = 0 ; row < 3; row++) {
+			
+			for(int column  = 0 ; column < 6; column++) {
+				
+				System.out.print(animalKingdom[row][column] + " ");
+			}
+			
+			System.out.println();
+			
+		}
+		
 
 	}
 
